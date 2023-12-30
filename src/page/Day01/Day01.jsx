@@ -1,12 +1,13 @@
 import React from 'react'
+import Code from "./Code.jsx";
+import BrowserPrev from "./BrowserPrev.jsx";
 
 const Day01 = () => {
 	return (
-		<div className="mockup-code">
-			<pre data-prefix="1"><code>npm i daisyui</code></pre>
-			<pre data-prefix="2"><code>installing...</code></pre>
-			<pre data-prefix="3" className="bg-warning text-warning-content"><code>Error!</code></pre>
-		</div>
+		<>
+		<Code/>
+		<BrowserPrev/>
+		</>
 	)
 }
 export default Day01
