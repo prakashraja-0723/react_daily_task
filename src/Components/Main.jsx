@@ -12,7 +12,7 @@ const Main = ({ taskData }) => {
               key={task.id}
               className={`p-6 grid place-items-center grid-cols-1 auto-rows-min md:grid-cols-2 lg:grid-cols-3  gap-4`}
             >
-              <Task task={task} i={i+1}/>
+              <Task task={task} i={i+1} />
               <Task task={task} i={i+1}/>
               <Task task={task} i={i+1}/>
               <Task task={task} i={i+1}/>
