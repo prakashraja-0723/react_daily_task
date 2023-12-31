@@ -1,12 +1,13 @@
-import React from 'react'
+import React from "react";
+import Code_1 from "./Code_1/Code_1.jsx";
+import Code_2 from "./Code_2/Code_2.jsx";
 
 const Code = () => {
-	return (
-		<div className="mockup-code">
-			<pre data-prefix="1"><code>npm i daisyui</code></pre>
-			<pre data-prefix="2"><code>installing...</code></pre>
-			<pre data-prefix="3" className="bg-warning text-warning-content"><code>Error!</code></pre>zxs0
-		</div>
-	)
-}
-export default Code
+  return (
+    <>
+      <Code_1 />
+      <Code_2 />
+    </>
+  );
+};
+export default Code;

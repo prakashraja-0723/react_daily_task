@@ -1,8 +1,8 @@
 import TASK_DATA from "../taskData.js";
-import {useEffect, useState} from "react";
 import Header from "./Header.jsx";
 import Main from "./Main.jsx";
 import Footer from "./Footer.jsx";
+import React from "react";
 const App = () => {
 
   const INITIAL_DATA = [

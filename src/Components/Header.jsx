@@ -1,4 +1,3 @@
-import React from "react";
 import Time from "./Time.jsx";
 
 const Header = ({ instructor, studentName, course }) => {
